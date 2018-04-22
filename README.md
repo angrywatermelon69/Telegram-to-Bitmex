@@ -1,59 +1,38 @@
 # Global Settings
 | Name | Description |
 |----------- | ----------|
-| exchange |  Use a particular exchange by default |
 | symbol | Default symbol to use |
+| volume | Default contract size to use |
 
-# Channel Settings
-| Name | Description |
-|----------- | ----------|
-| exchange  |  Use a particular exchange for a given channel (eg. Telegram) |
-| symbol | Default symbol to use  |
+Global settings allow the user to select symbol and position size to start trading quickly
 
-Each channel is a communication channel with the user.  telegram, line, CLI, facebook messenger, etc.
-
-# Exchange Settings
-| Name | Description |
-|----------- | ----------|
-| symbol | Default symbol to use for this exchange |
-| market_type | margin, exchange, funding |
-| volume | Default position size to use 
-
-Each exchange can include your default market type symbol and position size to start trading quickly
-
-# Plugin Settings
-| Name | Description |
-|----------- | ----------|
-
-# User Setting Hieracrchy
-Global <- Channel <- Exchange <- Plugin <- Command
-
-Command-setting override the Default Plugin setting when used. Plugin-settings override Exchange-setting when filled in. 
-Exchange-setting override the Channel-settings once defaults are saved. 
-Channel-settings override the Global-setting once defaults are saved
-
-
-# Plugin Commands
+# Commands
 | Name  | Command | Description
 | ------------- | ------------- | -------------|
-| Exchange Setup  | /ex_setup key [string] secret [string] | |
 | Account | /account | Show all user related information (channels, username, billing, etc)
-| Show Settings | /settings | Displays all the users settings |
-| Create setting | /setting [string] [value] |  Allows creating of settings.  /setting global.exchange bitmex |
-| Limit Orders  | /limit symbol [string,setting] price [number] vol [number] | Creates a limit order |
-| Get Price  | /price symbol [string,setting] exchange [string,setting] | Gets price on a exchange |
-| Show orders | /orders symbol [string,setting] exchange [string,setting] | Show orders for a symbol and exchange |
-| Show all orders | /orders_all |  Query all exchanges that user has api keys and show orders|
-| Cancel order | /orders cancel [string, id] | Cancels an order based on ID |
-| Cancel orders | /orders_cancel symbol [string,setting] exchange [string,setting] |  Cancels all orders based on symbol, exchange |
-| Cancel all orders | /orders_cancel_all | Query all exchanges that user has api keys and cancel those orders |
-| Show Positions | /positions symbol [string,setting] exchange [string,setting] | Show all positions for a given exchange and symbol |
-| Show all positions | /positions_all |  Query all exchanges that user has api keys  |
-| Close position | /position_close symbol [string,setting] exchange [string,setting] | Closes a position on a given pair and exchange |
-| Profit and Loss | /pnl exchange [string,setting] | Show profit/loss on an exchange |
-| Balances | /wallet exchange [string,setting] | Shows wallet balances for a given exchange |
-| All balances | /wallets | Shows balances for all exchanges |
-| History | /history | Shows a list of commands that were previously ran, allows them to be ran with one click |
+| Exchange Setup  | /ex_setup key [string] secret [string] | Must be setup to allow private api calls|
+| Global Setting  | /ex_global symbol [string] volume [number] | Default settings unless otherwise inputted|
+| Show Global Settings | /global | Displays all the users settings |
+| Buy Order  | /buy _sym[string] _v[number] | Creates a buy limit order |
+| Sell Order  | /sell _sym[string] _v[number] | Creates a sell limit order |
+| Limit Buy Order  | /bid _sym[string] _p[number] _v[number] | Creates a buy limit order |
+| Limit Sell Order  | /ask _sym[string] _p[number] _v[number] | Creates a sell limit order |
+| Get Price  | /p_sym[string] or Price | Gets price for specific symbol or Gets price for default symbol |
+| Get OrderBooks  | /book_sym[string] or Book | Gets orderbook for specific symbol or Gets orderbook for default symbol |
+| Show Orders | /orders or Orders | Show orders for all symbols |
+| Cancel Orders | /cancel or Cancel|  Cancels all orders for all symbols |
+| Show Position | /pos_sym[string] or POS | Show open position for specific symbol or Show open position for default symbol|
+| Close Position | /close_sym[string] or Close| Closes a position for specific symbol or Closes a position for default symbol |
+| Profit and Loss | /pnl_sym[string] or PNL | Show profit/loss for specific symbol or Show profit/loss for default symbol |
+| Balance | /wallet | Shows wallet balance|
+
+# Advanced Commands
+| Name  | Command | Description
+| ------------- | ------------- | -------------|
+| Adjust Leverage | /leverage_sym[string] [number]x or Leverj| Change contract leverage for specific symbol or default symbol |
+| Buy Grid | /gridbuy_sym[string]_offset[number]_v[number]_level[number]_space[number] | Buy Limit Order scaling with options to adjust the volume, symbol, offset from currect price to place the first order, how many levels(orders), and the order spacing|
+| Sell Grid | /gridsell_sym[string]_offset[number]_v[number]_level[number]_space[number] | Sell Limit Order scaling with options to adjust the volume, symbol, offset from currect price to place the first order, how many levels(orders), and the order spacing|
+
 
 
 
