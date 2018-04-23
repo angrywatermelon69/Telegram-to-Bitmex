@@ -13,8 +13,8 @@ Global settings allow the user to select symbol and position size to start tradi
 | Exchange Setup  | /ex_setup key [string] secret [string] | Must be setup to allow private api calls|
 | Global Setting  | /ex_global symbol [string] volume [number] | Default settings unless otherwise inputted|
 | Show Global Settings | /global | Displays all the users settings |
-| Buy Order  | /buy _sym[string] _v[number] | Creates a buy limit order |
-| Sell Order  | /sell _sym[string] _v[number] | Creates a sell limit order |
+| Buy Order  | /buy _sym[string] _v[number]  or Buy| Creates a buy market order for specific symbol or default symbol|
+| Sell Order  | /sell _sym[string] _v[number] or Sell| Creates a sell market orderfor specific symbol or default symbol |
 | Limit Buy Order  | /bid _sym[string] _p[number] _v[number] | Creates a buy limit order |
 | Limit Sell Order  | /ask _sym[string] _p[number] _v[number] | Creates a sell limit order |
 | Get Price  | /p_sym[string] or Price | Gets price for specific symbol or Gets price for default symbol |
