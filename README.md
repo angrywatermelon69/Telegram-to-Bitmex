@@ -6,6 +6,9 @@ Secret:	vFN3ti8O0FXKRx0oPMBB_MU5uWlMpWXOG0vfD89Pl70vMnFt
 Open your Telegram Application, or download the (application)[https://telegram.org/]
 Click here[http://t.me/bitmextestnet_bot] or type in @bitmexTestNet_bot in the telegram search box. Click the start button.
 
+# Test Net Bitcoins
+You will need to fund your bitmex testnet account with some Testnet bitcoins Follow the instructions on the Deposit page - https://testnet.bitmex.com/app/deposit
+
 # Login
 | Example | Real Login |
 |----------- | ----------|
