@@ -21,9 +21,9 @@ Global settings allow the user to select symbol and position size to start tradi
 | Get OrderBooks  | /book_sym[string] or Book | Gets orderbook for specific symbol or Gets orderbook for default symbol |
 | Show Orders | /orders or Orders | Show orders for all symbols |
 | Cancel Orders | /cancel or Cancel|  Cancels all orders for all symbols |
-| Show Position | /pos_sym[string] or POS | Show open position for specific symbol or Show open position for default symbol|
+| Show Position | /pos_sym[string] or Pos | Show open position for specific symbol or Show open position for default symbol|
 | Close Position | /close_sym[string] or Close| Closes a position for specific symbol or Closes a position for default symbol |
-| Profit and Loss | /pnl_sym[string] or PNL | Show profit/loss for specific symbol or Show profit/loss for default symbol |
+| Profit and Loss | /pnl_sym[string] or Pnl | Show profit/loss for specific symbol or Show profit/loss for default symbol |
 | Balance | /wallet | Shows wallet balance|
 
 # Advanced Commands
