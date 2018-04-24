@@ -1,10 +1,10 @@
-Open a Demo account at https://testnet.bitmex.com/register, once you are logged in, click on Account Tab , then API Keys on the left menu bar. Give your API Keys a name, don't worry about the CIDR for now, and adjust Key Permissions to "Order". Don't checkbox "Withdraw", Click Create API Keys: and Bitmex will return some strings like the one you see below. 
+Open a Demo account at [Bitmex TestNet](https://testnet.bitmex.com/register), once you are logged in, click on Account Tab , then API Keys on the left menu bar. Give your API Keys a name, don't worry about the CIDR for now, and adjust Key Permissions to "Order". Don't checkbox "Withdraw", Click Create API Keys: and Bitmex will return some strings like the one you see below. 
 
 ID: oVbXpx0R0SYd47CTz1GKxv2X
 Secret:	vFN3ti8O0FXKRx0oPMBB_MU5uWlMpWXOG0vfD89Pl70vMnFt
 
-Open your Telegram Application, or download the (application)[https://telegram.org/]
-Click here[http://t.me/bitmextestnet_bot] or type in @bitmexTestNet_bot in the telegram search box. Click the start button.
+Open your Telegram Application, or download the [application](https://telegram.org),
+Click [here](http://t.me/bitmextestnet_bot) to access the telegram bot or type in **@bitmexTestNet_bot** in the telegram search box. Then click the start button.
 
 # Test Net Bitcoins
 You will need to fund your bitmex testnet account with some Testnet bitcoins Follow the instructions on the Deposit page - https://testnet.bitmex.com/app/deposit
@@ -50,6 +50,8 @@ Global settings allow the user to select symbol and position size to start tradi
 | Buy Grid | /gridbuy_sym[string]_offset[number]_v[number]_level[number]_space[number] | Buy Limit Order scaling with options to adjust the volume, symbol, offset from currect price to place the first order, how many levels(orders), and the order spacing|
 | Sell Grid | /gridsell_sym[string]_offset[number]_v[number]_level[number]_space[number] | Sell Limit Order scaling with options to adjust the volume, symbol, offset from currect price to place the first order, how many levels(orders), and the order spacing|
 
+# User Interface
+![GitHub Logo](/images/logo.png)
 
 
 
