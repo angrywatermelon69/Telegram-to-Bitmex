@@ -7,13 +7,15 @@ Open your Telegram Application, or download the [application](https://telegram.o
 Click [here](http://t.me/bitmextestnet_bot) to access the telegram bot or type in **@bitmexTestNet_bot** in the telegram search box. Then click the start button.
 
 # Test Net Bitcoins
-You will need to fund your bitmex testnet account with some Testnet bitcoins Follow the instructions on the Deposit page - https://testnet.bitmex.com/app/deposit
+You will need to fund your bitmex testnet account with some Testnet bitcoins Follow the instructions on the [Deposit page](https://testnet.bitmex.com/app/deposit)
 
 # Login
 | Example | Real Login |
 |----------- | ----------|
 | /ex_setuo API_ID API_Secret | /ex_setup oVbXpx0R0SYd47CTz1GKxv2X vFN3ti8O0FXKRx0oPMBB_MU5uWlMpWXOG0vfD89Pl70vMnFt |
 | /ex_global Symbol Contract_Size | /ex_global XBTUSD 5000 |
+
+After you have tested the application proceed with your Live account API Keys with the **Official** [Bitmex_Xchange_bot](http://t.me/bitmex_xchange_bot) or type in @bitmex_xchange_bot in the telegram search box. **Demo API Keys do not work with the Official Bitmex_Xchange_Bot.**
 
 # Global Settings
 | Name | Description |
@@ -51,7 +53,7 @@ Global settings allow the user to select symbol and position size to start tradi
 | Sell Grid | /gridsell_sym[string]_offset[number]_v[number]_level[number]_space[number] | Sell Limit Order scaling with options to adjust the volume, symbol, offset from currect price to place the first order, how many levels(orders), and the order spacing|
 
 # User Interface
-![GitHub Logo](/images/logo.png)
+![Telegram Keyboard A](https://ibb.co/nkVCdc)
 
 
 
