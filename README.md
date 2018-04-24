@@ -1,3 +1,17 @@
+Open a Demo account at https://testnet.bitmex.com/register, once you are logged in, click on Account Tab , then API Keys on the left menu bar. Give your API Keys a name, don't worry about the CIDR for now, and adjust Key Permissions to "Order". Don't checkbox "Withdraw", Click Create API Keys: and Bitmex will return some strings like the one you see below. 
+
+ID: oVbXpx0R0SYd47CTz1GKxv2X
+Secret:	vFN3ti8O0FXKRx0oPMBB_MU5uWlMpWXOG0vfD89Pl70vMnFt
+
+Open your Telegram Application, or download the (application)[https://telegram.org/]
+Click here[http://t.me/bitmextestnet_bot] or type in @bitmexTestNet_bot in the telegram search box. Click the start button.
+
+# Login
+| Example | Real Login |
+|----------- | ----------|
+| /ex_setuo API_ID API_Secret | /ex_setup oVbXpx0R0SYd47CTz1GKxv2X vFN3ti8O0FXKRx0oPMBB_MU5uWlMpWXOG0vfD89Pl70vMnFt |
+| /ex_global Symbol Contract_Size | /ex_global XBTUSD 5000 |
+
 # Global Settings
 | Name | Description |
 |----------- | ----------|
