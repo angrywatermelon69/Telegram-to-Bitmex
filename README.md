@@ -53,7 +53,7 @@ Global settings allow the user to select symbol and position size to start tradi
 | Sell Grid | /gridsell_sym[string]_offset[number]_v[number]_level[number]_space[number] | Sell Limit Order scaling with options to adjust the volume, symbol, offset from currect price to place the first order, how many levels(orders), and the order spacing|
 
 # User Interface
-![Telegram Keyboard A](https://ibb.co/nkVCdc)
+![Telegram Keyboard A](https://preview.ibb.co/hO9SBx/bitmex_xchange_bot.png)
 
 
 
