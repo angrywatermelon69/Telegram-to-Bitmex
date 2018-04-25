@@ -9,8 +9,14 @@ Click [here](http://t.me/bitmextestnet_bot) to access the telegram bot or type i
 # Test Net Bitcoins
 You will need to fund your bitmex testnet account with some Testnet bitcoins Follow the instructions on the [Deposit page](https://testnet.bitmex.com/app/deposit)
 
+# Telegram Bot
+| Name | Echange | Telegram Link |
+|----------- | ----------| ----------|
+| @bitmextestnet | Bitmex Testnet | [Demo](http://t.me/bitmextestnet_bot) |
+| @bitmex_xchange_bot | Bitmex Live | [Live](http://t.me/bitmex_xchange_bot) |
+
 # Login
-| Example | Real Login |
+| Example | Real Login | 
 |----------- | ----------|
 | /ex_setuo API_ID API_Secret | /ex_setup oVbXpx0R0SYd47CTz1GKxv2X vFN3ti8O0FXKRx0oPMBB_MU5uWlMpWXOG0vfD89Pl70vMnFt |
 | /ex_global Symbol Contract_Size | /ex_global XBTUSD 5000 |
