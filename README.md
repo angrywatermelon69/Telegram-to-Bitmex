@@ -9,6 +9,8 @@ Click [here](http://t.me/bitmextestnet_bot) to access the telegram bot or type i
 # Test Net Bitcoins
 You will need to fund your bitmex testnet account with some Testnet bitcoins Follow the instructions on the [Deposit page](https://testnet.bitmex.com/app/deposit)
 
+After you have tested the application proceed with your Live account API Keys with the **Official** [Bitmex_Xchange_bot](http://t.me/bitmex_xchange_bot) or type in @bitmex_xchange_bot in the telegram search box. **Demo API Keys do not work with the Official Bitmex_Xchange_Bot.**
+
 # Telegram Bot
 | Name | Echange | Telegram Link |
 |----------- | ----------| ----------|
@@ -18,10 +20,10 @@ You will need to fund your bitmex testnet account with some Testnet bitcoins Fol
 # Login
 | Example | Real Login | 
 |----------- | ----------|
-| /ex_setuo API_ID API_Secret | /ex_setup oVbXpx0R0SYd47CTz1GKxv2X vFN3ti8O0FXKRx0oPMBB_MU5uWlMpWXOG0vfD89Pl70vMnFt |
+| /ex_setup [API_ID] [API_Secret] | /ex_setup oVbXpx0R0SYd47CTz1GKxv2X vFN3ti8O0FXKRx0oPMBB_MU5uWlMpWXOG0vfD89Pl70vMnFt |
 | /ex_global Symbol Contract_Size | /ex_global XBTUSD 5000 |
 
-After you have tested the application proceed with your Live account API Keys with the **Official** [Bitmex_Xchange_bot](http://t.me/bitmex_xchange_bot) or type in @bitmex_xchange_bot in the telegram search box. **Demo API Keys do not work with the Official Bitmex_Xchange_Bot.**
+**You must setup the /ex_setup then the /ex_global**
 
 # Global Settings
 | Name | Description |
@@ -29,7 +31,9 @@ After you have tested the application proceed with your Live account API Keys wi
 | symbol | Default symbol to use |
 | volume | Default contract size to use |
 
-Global settings allow the user to select symbol and position size to start trading quickly
+You must setup the Global settings after running "/ex_setup [api_ID] [api_secret]"
+
+Global settings allow the user to select symbol and position size to start trading quickly type in "/ex_global [symbol] [volume]
 
 # Commands
 | Name  | Command | Description
@@ -58,8 +62,14 @@ Global settings allow the user to select symbol and position size to start tradi
 | Buy Grid | /gridbuy_sym[string]_offset[number]_v[number]_level[number]_space[number] | Buy Limit Order scaling with options to adjust the volume, symbol, offset from currect price to place the first order, how many levels(orders), and the order spacing|
 | Sell Grid | /gridsell_sym[string]_offset[number]_v[number]_level[number]_space[number] | Sell Limit Order scaling with options to adjust the volume, symbol, offset from currect price to place the first order, how many levels(orders), and the order spacing|
 
+
 # User Interface
 ![Telegram Keyboard A](https://preview.ibb.co/hO9SBx/bitmex_xchange_bot.png)
+
+# Keyboard
+| Name  | Command | Description
+| ------------- | ------------- | -------------|
+| Default Keyboard | /keyboard or "Keyboard" | Trade from Push buttons within the Telegram application |
 
 
 
