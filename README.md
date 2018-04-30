@@ -70,6 +70,7 @@ Global settings allow the user to select symbol and position size to start tradi
 | Name  | Command | Description
 | ------------- | ------------- | -------------|
 | Default Keyboard | /keyboard or "Keyboard" | Trade from Push buttons within the Telegram application |
+| Home Keyboard | /keyboardhome or "Home" | Learn through the Tutorial, Check Wallet, Change Keybaords |
 
 
 
