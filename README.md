@@ -82,6 +82,11 @@ Global settings allow the user to select symbol and position size to start tradi
 |BITCOIN | @cryptocopy | Trading room for Bitcoin |
 |ETHER | @cryptocopyETH | Trading room for ETH/BTC |
 |LITECOIN | @cryptocopyLTC | Trading room for LTC/BTC |
-|BCASH | @cryptocoinBCH | Trading room for BCH/BTC |
+|BCASH | @cryptocopyBCH | Trading room for BCH/BTC |
+|ALTS | @cryptocopyALT | Trading room for other Bitmex contracts |
+
+To learn more about the trading groups, please read the information on CryptoCoinCopy Readme
+[Readme](https://github.com/fx4btc/CryptoCoinCopy) |
+
 
 
