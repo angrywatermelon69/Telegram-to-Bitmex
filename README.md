@@ -66,6 +66,10 @@ Global settings allow the user to select symbol and position size to start tradi
 | Buy Grid | /gridbuy_sym[string]_offset[number]_v[number]_level[number]_space[number] | Buy Limit Order scaling with options to adjust the volume, symbol, offset from currect price to place the first order, how many levels(orders), and the order spacing|
 | Sell Grid | /gridsell_sym[string]_offset[number]_v[number]_level[number]_space[number] | Sell Limit Order scaling with options to adjust the volume, symbol, offset from currect price to place the first order, how many levels(orders), and the order spacing|
 
+| Buy Grid | /bulkbuy_sym[string]_offset[number]_v[number]_level[number]_space[number] | Buy Limit Order scaling with options to adjust the volume, symbol, offset from currect price to place the first order, how many levels(orders), and the order spacing using Bitmex BulkOrder API|
+
+| Sell Grid | /bulksell_sym[string]_offset[number]_v[number]_level[number]_space[number] | Sell Limit Order scaling with options to adjust the volume, symbol, offset from currect price to place the first order, how many levels(orders), and the order spacing using Bitmex BulkOrder API|
+
 
 # User Interface
 ![Telegram Keyboard A](https://preview.ibb.co/hO9SBx/bitmex_xchange_bot.png)
@@ -85,8 +89,8 @@ Global settings allow the user to select symbol and position size to start tradi
 |BCASH | @cryptocopyBCH | Trading room for BCH/BTC |
 |ALTS | @cryptocopyALT | Trading room for other Bitmex contracts |
 
-To learn more about the trading groups, please read the information on CryptoCoinCopy Readme
-[Readme](https://github.com/fx4btc/CryptoCoinCopy) |
+To learn more about the trading groups, please read the information on CryptoCoinCopy
+[Readme](https://github.com/fx4btc/CryptoCoinCopy)
 
 
 
