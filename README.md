@@ -17,23 +17,28 @@ After you have tested the application proceed with your Live account API Keys wi
 | @bitmextestnet | Bitmex Testnet | [Demo](http://t.me/bitmextestnet_bot) |
 | @bitmex_xchange_bot | Bitmex Live | [Live](http://t.me/bitmex_xchange_bot) |
 
-# Login
+# Step One: Login
 | Example | Real Login | 
 |----------- | ----------|
-| /ex_setup [API_ID] [API_Secret] | /ex_setup oVbXpx0R0SYd47CTz1GKxv2X vFN3ti8O0FXKRx0oPMBB_MU5uWlMpWXOG0vfD89Pl70vMnFt |
-| /ex_global Symbol Contract_Size | /ex_global XBTUSD 5000 |
+| /ex_setup [API_Token] [API_Secret] | /ex_setup oVbXpx0R0SYd47CTz1GKxv2X vFN3ti8O0FXKRx0oPMBB_MU5uWlMpWXOG0vfD89Pl70vMnFt |
+|/apitoken [api token] | /apitoken oVbXpx0R0SYd47CTz1GKxv2X |
+|/apitoken [api token] | /apitoken oVbXpx0R0SYd47CTz1GKxv2X |
+|/apisecret [api secret | /apisecret vFN3ti8O0FXKRx0oPMBB_MU5uWlMpWXOG0vfD89Pl70vMnFt |
 
-**You must setup the /ex_setup then the /ex_global**
 
-# Global Settings
-| Name | Description |
+**You must setup the login before setting up the Global Setting**
+
+# Step Two: Global Settings
+| Name | Description | Example |
 |----------- | ----------|
-| symbol | Default symbol to use |
-| volume | Default contract size to use |
+| symbol | Default symbol to use | /symbol XBTUSD |
+| volume | Default contract size to use | /volume 100 |
+| /ex_global [Symbol] [Contract Size] | Setup both Symbol and Volume within one command |/ex_global XBTUSD 5000 |
+| Global | View your global setting | /global |
 
 You must setup the Global settings after running "/ex_setup [api_ID] [api_secret]"
 
-Global settings allow the user to select symbol and position size to start trading quickly type in "/ex_global [symbol] [volume]
+Global settings allow the user to select symbol and position size to start trading quickly by typing in "/ex_global [symbol] [volume]
 
 # Commands
 | Name  | Command | Description
