@@ -76,5 +76,12 @@ Global settings allow the user to select symbol and position size to start tradi
 | Default Keyboard | /keyboard or "Keyboard" | Trade from Push buttons within the Telegram application |
 | Home Keyboard | /keyboardhome or "Home" | Learn through the Tutorial, Check Wallet, Change Keybaords |
 
+# CryptoCoinCopy 
+| Name  | Telegram Group | Description
+| ------------- | ------------- | -------------|
+|BITCOIN | @cryptocopy | Trading room for Bitcoin |
+|ETHER | @cryptocopyETH | Trading room for ETH/BTC |
+|LITECOIN | @cryptocopyLTC | Trading room for LTC/BTC |
+|BCASH | @cryptocoinBCH | Trading room for BCH/BTC |
 
 
