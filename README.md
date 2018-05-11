@@ -11,6 +11,9 @@ You will need to fund your bitmex testnet account with some Testnet bitcoins Fol
 
 After you have tested the application proceed with your Live account API Keys with the **Official** [Bitmex_Xchange_bot](http://t.me/bitmex_xchange_bot) or type in @bitmex_xchange_bot in the telegram search box. **Demo API Keys do not work with the Official Bitmex_Xchange_Bot.**
 
+# Telegram User Name
+You must have a telegram username setup before submitting your api keys!
+
 # Telegram Bot
 | Name | Echange | Telegram Link |
 |----------- | ----------| ----------|
