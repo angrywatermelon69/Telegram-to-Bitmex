@@ -70,7 +70,7 @@ Global settings allow the user to select symbol and position size to start tradi
 | Sell Grid | /gridsell_sym[string]_offset[number]_v[number]_level[number]_space[number] | Sell Limit Order scaling with options to adjust the volume, symbol, offset from currect price to place the first order, how many levels(orders), and the order spacing|
 | Bulk Buy | /bulkbuy_sym[string]_offset[number]_v[number]_level[number]_space[number] | Buy Limit Order scaling with options to adjust the volume, symbol, offset from currect price to place the first order, how many levels(orders), and the order spacing using Bitmex BulkOrder API|
 | Bulk Sell | /bulksell_sym[string]_offset[number]_v[number]_level[number]_space[number] | Sell Limit Order scaling with options to adjust the volume, symbol, offset from currect price to place the first order, how many levels(orders), and the order spacing using Bitmex BulkOrder API|
-| Risk % Per Trade | /rpt_type[buy or sell]_r[number]_b[number]_s[number]| Market Order with automatic volume size dependant on three variables: r = Risk Percentage, b = Balance to contribute, s = Stoploss input |
+| Risk % Per Trade | /rpt_type[buy or sell]_r[number]_b[number]_s[number]| Market Order with automatic volume size dependent on three variables: r = Risk Percentage, b = Balance to contribute, s = Stoploss input |
 
 
 # User Interface
