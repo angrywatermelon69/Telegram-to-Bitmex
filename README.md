@@ -74,11 +74,12 @@ Global settings allow the user to select symbol and position size to start tradi
 | Risk % Per Trade | /rptsell_r[number]_b[number]_s[number]| Market Order Sell with automatic volume size dependent on three variables: r = Risk Percentage, b = Balance to contribute, s = Stoploss input |
 
 # Stoploss Commands
-If you have a position in the market and you want to protect your profits or set a stoploss , you can place a **STOP** order type. When you have a Buy Position in the market you will want to use a /stop_typesell for a stoploss. When you have a Sell Position in the market you will want to use a /stop_typebuy for a stoploss. 
 | Name  | Command | Description
 | ------------- | ------------- | -------------|
 | Set Stop Order | /stop_typesell_sym[string]_p[number]_v[number]| A Stop Order **Sell** can be used to lock in profit on a Buy position or can be used for a stoploss value to limit risk on your buy position |
 | Set Stop Order | /stop_typebuy_sym[string]_p[number]_v[number]| A Stop Order **Buy** can be used to lock in profit on a Sell position or can be used for a stoploss value to limit risk on your sell position |
+
+If you have a position in the market and you want to protect your profits or set a stoploss , you can place a **STOP** order type. When you have a Buy Position in the market you will want to use a /stop_typesell for a stoploss. When you have a Sell Position in the market you will want to use a /stop_typebuy for a stoploss. 
 
 
 # User Interface
