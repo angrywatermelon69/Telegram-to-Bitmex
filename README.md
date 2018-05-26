@@ -45,7 +45,6 @@ Global settings allow the user to select symbol and position size to start tradi
 # Commands
 | Name  | Command | Description
 | ------------- | ------------- | -------------|
-| Account | /account | Show all user related information (channels, username, billing, etc)
 | Exchange Setup  | /ex_setup key [string] secret [string] | Must be setup to allow private api calls|
 | Global Setting  | /ex_global symbol [string] volume [number] | Default settings unless otherwise inputted|
 | Show Global Settings | /global | Displays all the users settings |
@@ -55,6 +54,7 @@ Global settings allow the user to select symbol and position size to start tradi
 | Limit Sell Order  | /ask _sym[string] _p[number] _v[number] | Creates a sell limit order |
 | Get Price  | /p_sym[string] or Price | Gets price for specific symbol or Gets price for default symbol |
 | Get OrderBooks  | /book _sym[string] or Book | Gets orderbook for specific symbol or Gets orderbook for default symbol |
+| Trade from OrderBook  | /bookt _sym[string] or Bookt| Gets orderbook for specific symbol or Gets orderbook for default symbol |
 | Show Orders | /orders or Orders | Show orders for all symbols |
 | Cancel Orders | /cancel or Cancel|  Cancels all orders for all symbols |
 | Show Position | /pos _sym[string] or Pos | Show open position for specific symbol or Show open position for default symbol|
@@ -72,6 +72,13 @@ Global settings allow the user to select symbol and position size to start tradi
 | Bulk Sell | /bulksell_sym[string]_offset[number]_v[number]_level[number]_space[number] | Sell Limit Order scaling with options to adjust the volume, symbol, offset from currect price to place the first order, how many levels(orders), and the order spacing using Bitmex BulkOrder API|
 | Risk % Per Trade | /rptbuy_r[number]_b[number]_s[number]| Market Order Buy with automatic volume size dependent on three variables: r = Risk Percentage, b = Balance to contribute, s = Stoploss input |
 | Risk % Per Trade | /rptsell_r[number]_b[number]_s[number]| Market Order Sell with automatic volume size dependent on three variables: r = Risk Percentage, b = Balance to contribute, s = Stoploss input |
+
+# Stoploss Commands
+If you have a position in the market and you want to protect your profits or set a stoploss , you can place a **STOP** order type. When you have a Buy Position in the market you will want to use a /stop_typesell for a stoploss. When you have a Sell Position in the market you will want to use a /stop_typebuy for a stoploss. 
+| Name  | Command | Description
+| ------------- | ------------- | -------------|
+| Set Stop Order | /stop_typesell_sym[string]_p[number]_v[number]| A Stop Order **Sell** can be used to lock in profit on a Buy position or can be used for a stoploss value to limit risk on your buy position |
+| Set Stop Order | /stop_typebuy_sym[string]_p[number]_v[number]| A Stop Order **Buy** can be used to lock in profit on a Sell position or can be used for a stoploss value to limit risk on your sell position |
 
 
 # User Interface
