@@ -61,17 +61,24 @@ Global settings allow the user to select symbol and position size to start tradi
 | Close Position | /close _sym[string] or Close| Closes a position for specific symbol or Closes a position for default symbol |
 | Profit and Loss | /pnl _sym[string] or Pnl | Show profit/loss for specific symbol or Show profit/loss for default symbol |
 | Balance | /wallet | Shows wallet balance|
+| Adjust Leverage | /leverj _sym[string] _lev[number] or Leverj or [number]x| Change contract leverage for specific symbol or default symbol |
 
-# Advanced Commands
+# Grid and Scaling Positions Commands
 | Name  | Command | Description
 | ------------- | ------------- | -------------|
-| Adjust Leverage | /leverj _sym[string] _lev[number] or Leverj or [number]x| Change contract leverage for specific symbol or default symbol |
+
 | Buy Grid | /gridbuy_sym[string]_offset[number]_v[number]_level[number]_space[number] | Buy Limit Order scaling with options to adjust the volume, symbol, offset from currect price to place the first order, how many levels(orders), and the order spacing|
 | Sell Grid | /gridsell_sym[string]_offset[number]_v[number]_level[number]_space[number] | Sell Limit Order scaling with options to adjust the volume, symbol, offset from currect price to place the first order, how many levels(orders), and the order spacing|
 | Bulk Buy | /bulkbuy_sym[string]_offset[number]_v[number]_level[number]_space[number] | Buy Limit Order scaling with options to adjust the volume, symbol, offset from currect price to place the first order, how many levels(orders), and the order spacing using Bitmex BulkOrder API|
 | Bulk Sell | /bulksell_sym[string]_offset[number]_v[number]_level[number]_space[number] | Sell Limit Order scaling with options to adjust the volume, symbol, offset from currect price to place the first order, how many levels(orders), and the order spacing using Bitmex BulkOrder API|
+
+# Calculated Risk Per Trade Commands
+| Name  | Command | Description
+| ------------- | ------------- | -------------|
 | Risk % Per Trade | /rptbuy_r[number]_b[number]_s[number]| Market Order Buy with automatic volume size dependent on three variables: r = Risk Percentage, b = Balance to contribute, s = Stoploss input |
 | Risk % Per Trade | /rptsell_r[number]_b[number]_s[number]| Market Order Sell with automatic volume size dependent on three variables: r = Risk Percentage, b = Balance to contribute, s = Stoploss input |
+
+Risk Per Trade commands allow the trader to automatically calculate their contract size based on the balance/wallet , stoploss value from their technical analysis, and risk percentage that they would like to risk. With these three parameters ( balance, stoploss, and risk percentage) the command will place a market order with the correct contract size. The return message will also include a command for you to place a stoploss ( Stop Order ) at your defined values. Learn more about using the Stoploss Commands below. 
 
 # Stoploss Commands
 | Name  | Command | Description
