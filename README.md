@@ -1,4 +1,6 @@
-Open a Demo account at [Bitmex TestNet](https://testnet.bitmex.com/register), once you are logged in, click on Account Tab , then API Keys on the left menu bar. Give your API Keys a name, don't worry about the CIDR for now, and adjust Key Permissions to "Order". Don't checkbox "Withdraw", Click Create API Keys: and Bitmex will return some strings like the one you see below. 
+# Try it out on Bitmex TestNet
+
+Open a Demo account at [Bitmex TestNet](https://testnet.bitmex.com/register), once you are logged in, click on Account Tab , then API Keys on the left menu bar. Give your API Keys a name, don't worry about the CIDR for now, and adjust Key Permissions to "Order". Don't checkbox "Withdraw", Click Create API Keys: and Bitmex will return some strings like the one you see below. These are real api keys that you can use on the testnet exchange to simplify testing the application today. 
 
 ID: oVbXpx0R0SYd47CTz1GKxv2X
 Secret:	vFN3ti8O0FXKRx0oPMBB_MU5uWlMpWXOG0vfD89Pl70vMnFt
@@ -24,8 +26,10 @@ You must have a telegram username setup before submitting your api keys!
 | Example | Real Login | 
 |----------- | ----------|
 | /ex_setup [API_Token] [API_Secret] | /ex_setup oVbXpx0R0SYd47CTz1GKxv2X vFN3ti8O0FXKRx0oPMBB_MU5uWlMpWXOG0vfD89Pl70vMnFt |
-|/apitoken [api token] | /apitoken oVbXpx0R0SYd47CTz1GKxv2X |
-|/apisecret [api secret | /apisecret vFN3ti8O0FXKRx0oPMBB_MU5uWlMpWXOG0vfD89Pl70vMnFt |
+| /apitoken [api token] | /apitoken oVbXpx0R0SYd47CTz1GKxv2X |
+| /apisecret [api secret]| /apisecret vFN3ti8O0FXKRx0oPMBB_MU5uWlMpWXOG0vfD89Pl70vMnFt |
+
+You can use either method above to submit the api keys. The difference is one command versus two commands. 
 
 
 **You must setup the login before setting up the Global Setting**
