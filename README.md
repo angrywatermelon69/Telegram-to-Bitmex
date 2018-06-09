@@ -46,6 +46,11 @@ You must setup the Global settings after running "/ex_setup [api_ID] [api_secret
 
 Global settings allow the user to select symbol and position size to start trading quickly by typing in "/ex_global [symbol] [volume]
 
+# Tutorial
+| Name  | Command | Description
+| ------------- | ------------- | -------------|
+| Tutorial  | /tutorial or type "Tutorial" | Simply press the commands "/help_price" to walk through the tutorial|
+
 # Commands
 | Name  | Command | Description
 | ------------- | ------------- | -------------|
@@ -100,6 +105,8 @@ If you have a position in the market and you want to protect your profits or set
 | ------------- | ------------- | -------------|
 | Default Keyboard | /keyboard or "Keyboard" | Trade from Push buttons within the Telegram application |
 | Home Keyboard | /keyboardhome or "Home" | Learn through the Tutorial, Check Wallet, Change Keybaords |
+| Global Keyboard | Type "Global" or press the button "Global" | Setup the global user settings |
+| Api Keyboard | Type "Api" or press the button "Api" | Setup the api keys using the keyboard |
 
 # CryptoCoinCopy 
 | Name  | Telegram Group | Description
