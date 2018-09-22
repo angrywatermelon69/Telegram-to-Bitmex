@@ -112,10 +112,6 @@ If you have a position in the market and you want to protect your profits or set
 | Name  | Telegram Group | Description
 | ------------- | ------------- | -------------|
 |BITCOIN | @cryptocopy | Trading room for Bitcoin |
-|ETHER | @cryptocopyETH | Trading room for ETH/BTC |
-|LITECOIN | @cryptocopyLTC | Trading room for LTC/BTC |
-|BCASH | @cryptocopyBCH | Trading room for BCH/BTC |
-|ALTS | @cryptocopyALT | Trading room for other Bitmex contracts |
 
 To learn more about the trading groups, please read the information on CryptoCoinCopy
 [Readme](https://github.com/fx4btc/CryptoCoinCopy)
