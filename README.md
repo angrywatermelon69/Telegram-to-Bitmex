@@ -112,7 +112,7 @@ If you have a position in the market and you want to protect your profits or set
 | Name  | Telegram Group | Description
 | ------------- | ------------- | -------------|
 |BITCOIN | [@cryptocopy](https://t.me/cryptocopy) | Trading room for Bitcoin |
-|ETHEREUM | [@cryptocoincopy](https://t.me/cryptocoincopy) | Trading room for Bitcoin |
+|ETHEREUM | [@cryptocoincopy](https://t.me/cryptocoincopy) | Trading room for ETHUSD |
 
 To learn more about the trading groups, please read the information on CryptoCoinCopy
 [Readme](https://github.com/fx4btc/CryptoCoinCopy)
