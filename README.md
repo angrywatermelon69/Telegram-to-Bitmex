@@ -1,3 +1,10 @@
+# Cloud Hosted for over 2 years
+- Multi User
+- No hacks, breaches, or downtime
+- Professional trading application 
+- Bitmex Live and Testnet supported
+
+
 # Try it out on Bitmex TestNet
 
 Open a Demo account at [Bitmex TestNet](https://testnet.bitmex.com/register), once you are logged in, click on Account Tab , then API Keys on the left menu bar. Give your API Keys a name, don't worry about the CIDR for now, and adjust Key Permissions to "Order". Don't checkbox "Withdraw", Click Create API Keys: and Bitmex will return some strings like the one you see below. These are real api keys that you can use on the testnet exchange to simplify testing the application today. 
